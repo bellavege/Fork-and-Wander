@@ -10,13 +10,11 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('https://example.com/foraging-farm-background.jpg'); /* Replace with an actual URL to your background image */
-            background-size: cover;
-            background-attachment: fixed;
-            color: #5b3e1e;
+            background-color: #f5f5dc; /* A warm beige color */
+            color: #5b3e1e; /* A warm brown color */
         }
         header {
-            background-color: #a0522d;
+            background-color: #a0522d; /* A warm brown color */
             color: white;
             padding: 15px 0;
             text-align: center;
@@ -38,12 +36,12 @@
             width: 80%;
             margin: 30px auto;
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
         footer {
-            background-color: #a0522d;
+            background-color: #a0522d; /* A warm brown color */
             color: white;
             text-align: center;
             padding: 10px 0;
@@ -56,10 +54,10 @@
             margin-bottom: 20px;
         }
         h1, h2, h3 {
-            color: #a0522d;
+            color: #a0522d; /* A warm brown color */
         }
         a {
-            color: #a0522d;
+            color: #a0522d; /* A warm brown color */
         }
         a:hover {
             text-decoration: underline;
