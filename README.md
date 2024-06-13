@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,43 +6,59 @@
     <title>Bella Hernandez - Vegan Recipes</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #e8f5e9;
+            color: #2e7d32;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #66bb6a;
             color: white;
-            padding: 1rem;
+            padding: 2rem 0;
             text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #3E8E41;
-            padding: 0.5rem;
+            background-color: #388e3c;
+            padding: 1rem 0;
         }
         nav a {
             color: white;
-            margin: 0 1rem;
+            margin: 0 1.5rem;
             text-decoration: none;
+            font-weight: bold;
         }
         nav a:hover {
             text-decoration: underline;
         }
         .container {
+            max-width: 1000px;
+            margin: 0 auto;
             padding: 2rem;
         }
-        .about, .recipes, .contact {
+        section {
             margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #388e3c;
+            border-bottom: 2px solid #66bb6a;
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
         }
         footer {
-            background-color: #4CAF50;
+            background-color: #66bb6a;
             color: white;
             text-align: center;
-            padding: 1rem;
+            padding: 1rem 0;
             position: fixed;
             width: 100%;
             bottom: 0;
@@ -56,19 +72,19 @@
     <p>Imperfect Vegan | Fresh and Enjoyable Vegan Food</p>
 </header>
 
-nav>
+<nav>
     <a href="#about">About Me</a>
     <a href="#recipes">Recipes</a>
     <a href="#contact">Contact</a>
 </nav>
 
 <div class="container">
-    <section id="about" class="about">
+    <section id="about">
         <h2>About Me</h2>
         <p>Hi, I'm Bella Hernandez. I'm an imperfect vegan who believes that vegan food can be enjoyable, fresh, and not always processed or expensive. I'm on a journey to create recipes from around the world based on specific ingredients. Join me as I explore the diverse and delicious possibilities of vegan cuisine.</p>
     </section>
 
-    <section id="recipes" class="recipes">
+    <section id="recipes">
         <h2>Recipes</h2>
         <p>Explore my collection of 100 recipes per vegetable from around the world. Let's start with some amazing eggplant recipes:</p>
         <ul>
@@ -80,7 +96,7 @@ nav>
         </ul>
     </section>
 
-    <section id="contact" class="contact">
+    <section id="contact">
         <h2>Contact</h2>
         <p>Feel free to reach out to me at:</p>
         <p>Email: <a href="mailto:bellaph.hernandez@gmail.com">bellaph.hernandez@gmail.com</a></p>
@@ -93,3 +109,4 @@ nav>
 
 </body>
 </html>
+
