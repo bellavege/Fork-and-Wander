@@ -1,6 +1,6 @@
  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bella Hernandez - Vegan Recipes</title>
+    <title>Fork and Wander - Vegan Recipes</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -78,7 +78,7 @@
 <div class="container">
     <section id="about">
         <h2>About Me</h2>
-        <p>Hey everyone!   I'm [Your Name], just a regular ol' culinarian (or "foodie" if you prefer) on a mission to shatter vegan stereotypes. Let's face it, sometimes vegan options get a bad rap: bland, boring, and let's not forget – expensive! But trust me, it doesn't have to be that way.
+        <p>Hey everyone!   I'm Bella, just a regular ol' culinarian (or "foodie" if you prefer) on a mission to shatter vegan stereotypes. Let's face it, sometimes vegan options get a bad rap: bland, boring, and let's not forget – expensive! But trust me, it doesn't have to be that way.
 
 I believe vegan food can be an explosion of flavor, fresh, budget-friendly, and anything but boring.  In fact, I'm obsessed with unlocking the potential of everyday ingredients to create mouthwatering, plant-based dishes inspired by global cuisines.
 
