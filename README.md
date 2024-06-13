@@ -1,5 +1,4 @@
-<head>
-    <meta charset="UTF-8">
+ <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bella Hernandez - Vegan Recipes</title>
     <style>
@@ -66,7 +65,7 @@
 <body>
 
 <header>
-    <h1>Bella Hernandez</h1>
+    <h1>Fork & Wander</h1>
     <p>Imperfect Vegan | Fresh and Enjoyable Vegan Food</p>
 </header>
 
@@ -79,7 +78,11 @@
 <div class="container">
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi, I'm Bella Hernandez. I'm an imperfect vegan who believes that vegan food can be enjoyable, fresh, and not always processed or expensive. I'm on a journey to create recipes from around the world based on specific ingredients. Join me as I explore the diverse and delicious possibilities of vegan cuisine.</p>
+        <p>Hey everyone!   I'm [Your Name], just a regular ol' culinarian (or "foodie" if you prefer) on a mission to shatter vegan stereotypes. Let's face it, sometimes vegan options get a bad rap: bland, boring, and let's not forget – expensive! But trust me, it doesn't have to be that way.
+
+I believe vegan food can be an explosion of flavor, fresh, budget-friendly, and anything but boring.  In fact, I'm obsessed with unlocking the potential of everyday ingredients to create mouthwatering, plant-based dishes inspired by global cuisines.
+
+Come along with me on this delicious adventure!  I'll be sharing recipes, tips, and maybe even some imperfect moments along the way (because hey, nobody's perfect!).  Get ready to explore the incredibly diverse and satisfying world of vegan food, one flavorful bite at a time!</p>
     </section>
 
     <section id="recipes">
