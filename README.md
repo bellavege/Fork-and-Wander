@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fork and Wander - Vegan Recipes</title>
+    <title>Bella Hernandez - Vegan Recipes</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -67,8 +68,8 @@
 <body>
 
 <header>
-    <h1>Fork & Wander</h1>
-    <p>Imperfect Vegan | Fresh and Enjoyable Vegan Food</p>
+    <h1>Fork and Wander</h1>
+    <p>Unveiling the Delicious: A Vegan Foodie's Imperfect Journey</p>
 </header>
 
 <nav>
@@ -112,4 +113,5 @@ Come along with me on this delicious adventure!  I'll be sharing recipes, tips, 
 
 </body>
 </html>
+
 
