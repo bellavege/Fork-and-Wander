@@ -1,4 +1,5 @@
 # jubilant-broccolli
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,97 +8,95 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
             margin: 0;
             padding: 0;
-            background-color: #f5f5dc; /* A warm beige color */
-            color: #5b3e1e; /* A warm brown color */
         }
         header {
-            background-color: #a0522d; /* A warm brown color */
+            background-color: #4CAF50;
             color: white;
-            padding: 15px 0;
+            padding: 1rem;
             text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        nav ul {
-            list-style: none;
-            padding: 0;
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3E8E41;
+            padding: 0.5rem;
         }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
+        nav a {
             color: white;
+            margin: 0 1rem;
             text-decoration: none;
         }
+        nav a:hover {
+            text-decoration: underline;
+        }
         .container {
-            width: 80%;
-            margin: 30px auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
+            padding: 2rem;
+        }
+        .about, .recipes, .contact {
+            margin-bottom: 2rem;
+        }
+        .about img {
+            max-width: 100%;
+            height: auto;
         }
         footer {
-            background-color: #a0522d; /* A warm brown color */
+            background-color: #4CAF50;
             color: white;
             text-align: center;
-            padding: 10px 0;
+            padding: 1rem;
             position: fixed;
-            bottom: 0;
             width: 100%;
-            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .about, .recipes, .blog, .contact {
-            margin-bottom: 20px;
-        }
-        h1, h2, h3 {
-            color: #a0522d; /* A warm brown color */
-        }
-        a {
-            color: #a0522d; /* A warm brown color */
-        }
-        a:hover {
-            text-decoration: underline;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Bella Hernandez</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#recipes">Recipes</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <section id="about" class="about">
-            <h2>About Me</h2>
-            <p>Hi, I'm Bella Hernandez. I'm an imperfect vegan who believes that vegan food can be enjoyable and fresh, without always being processed and expensive. I create recipes around the world with specific ingredients, proving that vegan cuisine can be both delicious and affordable.</p>
-        </section>
-        <section id="recipes" class="recipes">
-            <h2>Recipes</h2>
-            <p>Explore my collection of recipes from around the world. Each recipe focuses on a specific ingredient, showcasing its versatility and flavor. Check back often for new recipes!</p>
-            <!-- Add individual recipe links or summaries here -->
-        </section>
-        <section id="blog" class="blog">
-            <h2>Blog</h2>
-            <p>Read my latest blog posts about vegan food, lifestyle tips, and my journey as an imperfect vegan. Join the conversation and share your thoughts!</p>
-            <!-- Add blog post links or summaries here -->
-        </section>
-        <section id="contact" class="contact">
-            <h2>Contact</h2>
-            <p>I'd love to hear from you! Whether you have questions, suggestions, or just want to connect, feel free to reach out.</p>
-            <p>Email: <a href="mailto:bellaph.hernandez@gmail.com">bellaph.hernandez@gmail.com</a></p>
-        </section>
-    </div>
-    <footer>
-        <p>&copy; 2024 Bella Hernandez. All rights reserved.</p>
-    </footer>
+
+<header>
+    <h1>Bella Hernandez</h1>
+    <p>Imperfect Vegan | Fresh and Enjoyable Vegan Food</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#recipes">Recipes</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Bella Hernandez. I'm an imperfect vegan who believes that vegan food can be enjoyable, fresh, and not always processed or expensive. I'm on a journey to create recipes from around the world based on specific ingredients. Join me as I explore the diverse and delicious possibilities of vegan cuisine.</p>
+        <img src="https://example.com/wet-market-philippines.jpg" alt="Wet Market in the Philippines with fruits and vegetables">
+    </section>
+
+    <section id="recipes" class="recipes">
+        <h2>Recipes</h2>
+        <p>Explore my collection of 100 recipes per vegetable from around the world. Let's start with some amazing eggplant recipes:</p>
+        <ul>
+            <li>Grilled Eggplant with Garlic Sauce</li>
+            <li>Eggplant Parmesan</li>
+            <li>Baba Ganoush</li>
+            <li>Szechuan Spicy Eggplant</li>
+            <li>Stuffed Eggplant</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me at:</p>
+        <p>Email: <a href="mailto:bellaph.hernandez@gmail.com">bellaph.hernandez@gmail.com</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Bella Hernandez. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
+
