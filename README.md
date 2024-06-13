@@ -39,10 +39,6 @@
         .about, .recipes, .contact {
             margin-bottom: 2rem;
         }
-        .about img {
-            max-width: 100%;
-            height: auto;
-        }
         footer {
             background-color: #4CAF50;
             color: white;
@@ -61,7 +57,7 @@
     <p>Imperfect Vegan | Fresh and Enjoyable Vegan Food</p>
 </header>
 
-<nav>
+nav>
     <a href="#about">About Me</a>
     <a href="#recipes">Recipes</a>
     <a href="#contact">Contact</a>
@@ -71,7 +67,6 @@
     <section id="about" class="about">
         <h2>About Me</h2>
         <p>Hi, I'm Bella Hernandez. I'm an imperfect vegan who believes that vegan food can be enjoyable, fresh, and not always processed or expensive. I'm on a journey to create recipes from around the world based on specific ingredients. Join me as I explore the diverse and delicious possibilities of vegan cuisine.</p>
-        <img src="https://example.com/wet-market-philippines.jpg" alt="Wet Market in the Philippines with fruits and vegetables">
     </section>
 
     <section id="recipes" class="recipes">
@@ -99,4 +94,3 @@
 
 </body>
 </html>
-
