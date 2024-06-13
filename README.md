@@ -1,5 +1,4 @@
-# jubilant-broccoli
-<!DOCTYPE html>
+# jubilant-broccolli
 <html lang="en">
 <head>
     <meta charset="UTF-8">
