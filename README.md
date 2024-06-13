@@ -10,14 +10,17 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
+            background-image: url('https://example.com/foraging-farm-background.jpg'); /* Replace with an actual URL to your background image */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #5b3e1e;
         }
         header {
-            background-color: #4caf50;
+            background-color: #a0522d;
             color: white;
-            padding: 10px 0;
+            padding: 15px 0;
             text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         nav ul {
             list-style: none;
@@ -33,25 +36,33 @@
         }
         .container {
             width: 80%;
-            margin: 0 auto;
+            margin: 30px auto;
             padding: 20px;
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.9);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
         footer {
-            background-color: #4caf50;
+            background-color: #a0522d;
             color: white;
             text-align: center;
             padding: 10px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
         }
         .about, .recipes, .blog, .contact {
             margin-bottom: 20px;
         }
         h1, h2, h3 {
-            color: #4caf50;
+            color: #a0522d;
+        }
+        a {
+            color: #a0522d;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -85,7 +96,7 @@
         <section id="contact" class="contact">
             <h2>Contact</h2>
             <p>I'd love to hear from you! Whether you have questions, suggestions, or just want to connect, feel free to reach out.</p>
-            <p>Email: <a href="mailto:bella@example.com">bella@example.com</a></p>
+            <p>Email: <a href="mailto:bellaph.hernandez@gmail.com">bellaph.hernandez@gmail.com</a></p>
         </section>
     </div>
     <footer>
